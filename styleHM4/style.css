@@ -1,0 +1,99 @@
+html {
+    box-sizing: border-box;
+}
+.body {
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Tapestry', 'cursive';
+    }
+::before, ::after {
+    box-sizing: inherit;
+
+}
+.element{
+    background-image: url("");
+   background-position: center;
+    resize: both;
+    overflow: auto;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.form{
+    max-width: 600px;
+    margin: 20px auto;
+}
+.label__text{
+    font-weight: bold;
+}
+
+.amount__field{
+    margin-left: 40px;
+    width: 100px;
+
+}
+
+.form__legend{
+    background-color: gold;
+    color: brown;
+    font-weight: bold;
+    font-size: medium;
+}
+.form__button{
+    background-color: rgb(247, 154, 118);
+    color: rgb(240, 228, 223);
+    border-radius: 3px 66px 83px 20px;
+
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 15px;
+    margin-left: 180px;
+    width: 20%;
+    margin-top: 5px;
+    cursor: pointer;
+
+}
+.form__buttonReset{
+    background-color: gold;
+    color: brown;
+    font-weight: bold;
+    font-size: medium;
+    margin-top: 15px;
+    margin-left: 2px;
+    width: 100%;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.js-currency{
+    width: 250px;
+    margin-left: 50px;
+    border-radius: 25px;
+}
+.js-amount{
+    width: 246px;
+    margin-left: 45px;
+    border-radius: 25px;
+ 
+}
+.form__header{
+    margin-left: 100px;
+    color: rgb(21, 255, 0);
+}
+.form__valuate{
+    font-weight: bold;
+}
+.form__amount{
+    font-weight: bold;
+}
+.PLN{
+    color: green;
+    margin-left: 2px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.form__result {
+    color: green;
+    font-weight: normal;
+    margin-left: 170px;
+
+}

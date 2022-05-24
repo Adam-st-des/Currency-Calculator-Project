@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styleHM4/style.css">
+    <script src="./codeHM4/code.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Homework</title>
+</head>
+<body class="body">
+<div class="container">
+    <div class="element">
+        <div class="background__photo"></div>
+        <form class="form js-form">
+            <h1 class="form__header">Przelicznik walut</h1>
+                
+                 <p>  
+               <label><span class="form__valuate">Waluta:</span>
+                    <select class="js-currency">
+                        <option value="GBP">Funt brytyjski</option>
+                        <option value="CHF">Frank szwajcarski</option>
+                        <option value="USD">Dolar amerykański</option>
+                        <option value="EUR">Euro</option>
+                        <option value="JPY">Jen japoński</option>
+                        <option value="R">Rand południowoafrykański</option>
+    
+                  </select>
+                  
+                  </label>
+                  
+                </p>
+                <span class="form__amount">Kwota:*</span>
+                <input placeholder="Podaj kwotę w zł" type="number" required class="js-amount" step="0.01" min="1">
+            </p>
+                <p><button type="submit" class="form__button">Policz</button>
+                
+                </p>
+                <p>
+               </p><strong class="form__result"></strong>
+            
+            </p>
+        
+    
+     </label>
+     </form>
+    </div>
+</div>
+</body>
+</html>
