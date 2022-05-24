@@ -11,11 +11,8 @@ html {
 
 }
 .element{
-    background-image: url("../photos/money.jpg");
-   background-position: center;
-    overflow: auto;
-   background-repeat: no-repeat;
-   background-size: cover;
+    background-image: url("");
+   
 }
 .form{
     max-width: 600px;
