@@ -5,15 +5,25 @@ html {
     font-family: 'Oswald', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Tapestry', 'cursive';
+    background-image: url("/photos/money.jpg");
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-size: cover;
+    background-position: center;
+
+    }
+    .container{
+        background-color: brown;
+        width: 700px;
+        height: 250px;
     }
 ::before, ::after {
     box-sizing: inherit;
 
 }
-.element{
-    background-image: url("");
-   
-}
+
 .form{
     max-width: 600px;
     margin: 20px auto;
@@ -35,44 +45,31 @@ html {
     font-size: medium;
 }
 .form__button{
-    background-color: rgb(247, 154, 118);
-    color: rgb(240, 228, 223);
+    background-color: rgb(57, 241, 11);
     border-radius: 3px 66px 83px 20px;
 
     font-weight: bold;
     font-size: medium;
     margin-top: 15px;
-    margin-left: 180px;
+    margin-left: 280px;
     width: 20%;
-    margin-top: 5px;
+    margin-top: 2px;
     cursor: pointer;
 
 }
-.form__buttonReset{
-    background-color: gold;
-    color: brown;
-    font-weight: bold;
-    font-size: medium;
-    margin-top: 15px;
-    margin-left: 2px;
-    width: 100%;
-    margin-top: 15px;
-    cursor: pointer;
-}
+
 
 .js-currency{
-    width: 250px;
-    margin-left: 50px;
-    border-radius: 25px;
+    width: 246px;
+    margin-left: 150px;
 }
 .js-amount{
-    width: 246px;
-    margin-left: 45px;
-    border-radius: 25px;
+    width: 240px;
+    margin-left: 155px;
  
 }
 .form__header{
-    margin-left: 100px;
+    margin-left: 220px;
     color: rgb(21, 255, 0);
 }
 .form__valuate{
@@ -82,14 +79,14 @@ html {
     font-weight: bold;
 }
 .PLN{
-    color: green;
+    color: rgb(21, 255, 0);
     margin-left: 2px;
     font-weight: bold;
     font-size: 20px;
 }
 .form__result {
-    color: green;
-    font-weight: normal;
-    margin-left: 170px;
+    color: rgb(21, 255, 0);
+    font-weight: bold;
+    margin-left: 260px;
 
 }
